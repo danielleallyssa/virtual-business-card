@@ -36,7 +36,6 @@ a.link {
 
   a.button.button--primary {
     background: var(--color-lime-dark);
-    background-color: red;
   }
 
   a.button.button--secondary {
