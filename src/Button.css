@@ -23,7 +23,7 @@ a.button.button--secondary {
 }
 
 a.link {
-  color: var(--color-tan);
+  color: var(--color-tan-dark);
   text-decoration: underline;
   text-underline-offset: 2px;
 }
