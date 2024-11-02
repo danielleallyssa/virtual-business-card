@@ -92,7 +92,6 @@ p {
     background-color: #2c2b2b;
   }
 
-  /* May change */
   ::selection {
     background: var(--color-lime-dark);
   }
