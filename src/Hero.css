@@ -1,0 +1,14 @@
+header img {
+  width: 100%;
+  aspect-ratio: 1/0.75;
+  object-fit: cover;
+
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+}
+
+.content {
+  padding-top: 0.75rem;
+  padding-inline: 1rem;
+  text-align: center;
+}

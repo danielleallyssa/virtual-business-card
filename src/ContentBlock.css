@@ -1,0 +1,10 @@
+.details {
+  padding-inline: 1rem;
+}
+
+.details--content {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1;
+}
