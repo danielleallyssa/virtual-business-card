@@ -7,8 +7,8 @@ export default function Footer() {
   return (
     <footer>
       <div className="social--links">
-        {footerButtons.map(({ id, text, url, variant }) => (
-          <Button key={id} text={text} url={url} variant={variant} />
+        {footerButtons.map((button) => (
+          <Button key={button.id} {...button} />
         ))}
       </div>
     </footer>

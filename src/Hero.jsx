@@ -17,14 +17,8 @@ export default function Hero() {
           text="danielleallyssa.com"
         />
         <div className="social--links">
-          {heroButtons.map(({ text, url, variant, id }) => (
-            <Button
-              key={id}
-              style="button"
-              variant={variant}
-              url={url}
-              text={text}
-            />
+          {heroButtons.map((button) => (
+            <Button key={button.id} {...button} />
           ))}
         </div>
       </div>

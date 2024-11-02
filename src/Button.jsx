@@ -1,11 +1,13 @@
 import "./Button.css";
 
-export default function Button({
-  variant = "primary",
-  url = "#",
-  style = "button",
-  text = "Learn More",
-}) {
+export default function Button(button) {
+  const {
+    variant = "primary",
+    url = "#",
+    style = "button",
+    text = "Learn More",
+  } = button;
+
   return (
     <a
       href={url === "" ? `#` : url}
