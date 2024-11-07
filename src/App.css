@@ -1,8 +1,8 @@
 #root {
-  margin: 0 auto;
+  margin: 2rem auto;
   border: 1px solid var(--color-tan-dark);
   border-radius: var(--radius);
-  width: clamp(250px, 250px + 10vw, 700px);
+  width: clamp(280px, 280px + 5vw, 700px);
   padding-bottom: 0.5rem;
   background-color: var(--color-off-white);
   box-shadow: 4px 4px 30px -10px #e4c7fa;

@@ -15,8 +15,8 @@ export const buttons = [
   },
   {
     id: 3,
-    text: "Twitter",
-    url: "https://twitter.com/danielleallyssa",
+    text: "BlueSky",
+    url: "https://bsky.app/profile/danielleallyssa.bsky.social",
     style: "button",
     variant: "secondary",
   },
@@ -40,11 +40,11 @@ export const textContent = [
   {
     id: 1,
     title: "About",
-    text: "I'm a front-end developer and designer with 7 years in e-commerce and 30+ websites created. I specialize in tailored solutions and problem-solving, and I'm eager to grow in the tech industry!",
+    text: "I'm a front-end developer and designer with 7 years of experience, specializing in tailored solutions for D2C brands. I'm eager to continue growing in the tech industry.",
   },
   {
     id: 2,
     title: "Interests",
-    text: "I’m in Connecticut, but my roots are in Philly, where my love for arts and design began. After work, I enjoy reading, watching documentaries,illustrating, and creating web animations with Three.js and shaders.",
+    text: "When I'm not catching up on the latest tech trend, you'll find me reading, watching documentaries, or illustrating for my next passion project.",
   },
 ];
